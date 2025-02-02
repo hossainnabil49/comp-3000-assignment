@@ -1,0 +1,229 @@
+execve("./3000textui", ["./3000textui"], 0x7ffdb5cb1910 /* 26 vars */) = 0
+brk(NULL)                               = 0x563ed96a5000
+arch_prctl(0x3001 /* ARCH_??? */, 0x7ffef38a5b00) = -1 EINVAL (Invalid argument)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f937ffaa000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v3/lib3000ping.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v2/lib3000ping.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/haswell/x86_64/lib3000ping.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/haswell/lib3000ping.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/x86_64/lib3000ping.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/lib3000ping.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "haswell/x86_64/lib3000ping.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "haswell/lib3000ping.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "x86_64/lib3000ping.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "lib3000ping.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0775, st_size=16816, ...}, AT_EMPTY_PATH) = 0
+getcwd("/home/student/comp-3000-assignment/a1", 128) = 38
+mmap(NULL, 20864, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f937ffa4000
+mmap(0x7f937ffa5000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f937ffa5000
+mmap(0x7f937ffa6000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f937ffa6000
+mmap(0x7f937ffa7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f937ffa7000
+mmap(0x7f937ffa9000, 384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f937ffa9000
+close(3)                                = 0
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v3/libncurses.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v2/libncurses.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/haswell/x86_64/libncurses.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/haswell/libncurses.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/x86_64/libncurses.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/libncurses.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "haswell/x86_64/libncurses.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "haswell/libncurses.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "x86_64/libncurses.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "libncurses.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/student/comp-3000-assignment/a1/glibc-hwcaps/x86-64-v3/libncurses.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/student/comp-3000-assignment/a1/glibc-hwcaps/x86-64-v3", 0x7ffef38a4d00, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/student/comp-3000-assignment/a1/glibc-hwcaps/x86-64-v2/libncurses.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/student/comp-3000-assignment/a1/glibc-hwcaps/x86-64-v2", 0x7ffef38a4d00, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/student/comp-3000-assignment/a1/tls/haswell/x86_64/libncurses.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/student/comp-3000-assignment/a1/tls/haswell/x86_64", 0x7ffef38a4d00, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/student/comp-3000-assignment/a1/tls/haswell/libncurses.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/student/comp-3000-assignment/a1/tls/haswell", 0x7ffef38a4d00, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/student/comp-3000-assignment/a1/tls/x86_64/libncurses.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/student/comp-3000-assignment/a1/tls/x86_64", 0x7ffef38a4d00, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/student/comp-3000-assignment/a1/tls/libncurses.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/student/comp-3000-assignment/a1/tls", 0x7ffef38a4d00, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/student/comp-3000-assignment/a1/haswell/x86_64/libncurses.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/student/comp-3000-assignment/a1/haswell/x86_64", 0x7ffef38a4d00, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/student/comp-3000-assignment/a1/haswell/libncurses.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/student/comp-3000-assignment/a1/haswell", 0x7ffef38a4d00, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/student/comp-3000-assignment/a1/x86_64/libncurses.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/student/comp-3000-assignment/a1/x86_64", 0x7ffef38a4d00, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/student/comp-3000-assignment/a1/libncurses.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/student/comp-3000-assignment/a1", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=25095, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 25095, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f937ff9d000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libncurses.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=157776, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 160160, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f937ff75000
+mmap(0x7f937ff7c000, 102400, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7f937ff7c000
+mmap(0x7f937ff95000, 24576, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x20000) = 0x7f937ff95000
+mmap(0x7f937ff9b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x25000) = 0x7f937ff9b000
+close(3)                                = 0
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v3/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v2/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/haswell/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/haswell/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "haswell/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "haswell/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/student/comp-3000-assignment/a1/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=200136, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 203040, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f937ff43000
+mmap(0x7f937ff51000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe000) = 0x7f937ff51000
+mmap(0x7f937ff62000, 57344, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1f000) = 0x7f937ff62000
+mmap(0x7f937ff70000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2c000) = 0x7f937ff70000
+close(3)                                = 0
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/student/comp-3000-assignment/a1/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\237\2\0\0\0\0\0"..., 832) = 832
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0"..., 48, 848) = 48
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0I\17\357\204\3$\f\221\2039x\324\224\323\236S"..., 68, 896) = 68
+newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=2220400, ...}, AT_EMPTY_PATH) = 0
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+mmap(NULL, 2264656, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f937fd1a000
+mprotect(0x7f937fd42000, 2023424, PROT_NONE) = 0
+mmap(0x7f937fd42000, 1658880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7f937fd42000
+mmap(0x7f937fed7000, 360448, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bd000) = 0x7f937fed7000
+mmap(0x7f937ff30000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x215000) = 0x7f937ff30000
+mmap(0x7f937ff36000, 52816, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f937ff36000
+close(3)                                = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f937fd18000
+arch_prctl(ARCH_SET_FS, 0x7f937fd19380) = 0
+set_tid_address(0x7f937fd19650)         = 6672
+set_robust_list(0x7f937fd19660, 24)     = 0
+rseq(0x7f937fd19d20, 0x20, 0, 0x53053053) = 0
+mprotect(0x7f937ff30000, 16384, PROT_READ) = 0
+mprotect(0x7f937ff70000, 16384, PROT_READ) = 0
+mprotect(0x7f937ff9b000, 4096, PROT_READ) = 0
+mprotect(0x7f937ffa7000, 4096, PROT_READ) = 0
+mprotect(0x563ea9978000, 4096, PROT_READ) = 0
+mprotect(0x7f937ffe4000, 8192, PROT_READ) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+munmap(0x7f937ff9d000, 25095)           = 0
+newfstatat(1, "", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}, AT_EMPTY_PATH) = 0
+getrandom("\x17\x3f\x5a\x09\x3e\x9e\xae\x16", 8, GRND_NONBLOCK) = 8
+brk(NULL)                               = 0x563ed96a5000
+brk(0x563ed96c6000)                     = 0x563ed96c6000
+write(1, "Press any key to continue...\n", 29) = 29
+newfstatat(0, "", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}, AT_EMPTY_PATH) = 0
+read(0, "\n", 1024)                     = 1
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+newfstatat(AT_FDCWD, "/home/student/.terminfo", 0x563ed96a6560, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/etc/terminfo", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/lib/terminfo", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/usr/share/terminfo", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+access("/etc/terminfo/x/xterm", R_OK)   = -1 ENOENT (No such file or directory)
+access("/lib/terminfo/x/xterm", R_OK)   = 0
+openat(AT_FDCWD, "/lib/terminfo/x/xterm", O_RDONLY) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=3772, ...}, AT_EMPTY_PATH) = 0
+read(3, "\32\1=\0&\0\17\0\235\1\20\6xterm|xterm-debian|x"..., 32768) = 3772
+read(3, "", 28672)                      = 0
+close(3)                                = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TIOCGWINSZ, {ws_row=85, ws_col=317, ws_xpixel=0, ws_ypixel=0}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TIOCGWINSZ, {ws_row=85, ws_col=317, ws_xpixel=0, ws_ypixel=0}) = 0
+brk(0x563ed96e7000)                     = 0x563ed96e7000
+brk(0x563ed9708000)                     = 0x563ed9708000
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, SNDCTL_TMR_STOP or TCSETSW, {B38400 opost isig -icanon echo ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig -icanon echo ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig -icanon echo ...}) = 0
+ioctl(1, SNDCTL_TMR_STOP or TCSETSW, {B38400 opost isig -icanon -echo ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig -icanon -echo ...}) = 0
+rt_sigaction(SIGTSTP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTSTP, {sa_handler=0x7f937ff94750, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f937fd5c520}, NULL, 8) = 0
+rt_sigaction(SIGINT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=0x7f937ff91a60, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f937fd5c520}, NULL, 8) = 0
+rt_sigaction(SIGTERM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTERM, {sa_handler=0x7f937ff91a60, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f937fd5c520}, NULL, 8) = 0
+rt_sigaction(SIGWINCH, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGWINCH, {sa_handler=0x7f937ff89cb0, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f937fd5c520}, NULL, 8) = 0
+ioctl(1, TCGETS, {B38400 opost isig -icanon -echo ...}) = 0
+write(1, "\33[?1049h\33[22;0;0t\33[1;85r\33(B\33[m\33["..., 45) = 45
+brk(0x563ed972a000)                     = 0x563ed972a000
+rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f937fd5c520}, {sa_handler=0x7f937ff94750, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f937fd5c520}, 8) = 0
+write(1, "\33[39;49m\33[39;49m\33[37m\33[40m\33[H\33[2"..., 39) = 39
+write(1, "\33[34m\33[47mPing 8.8.8.8  \10\10", 26) = 26
+write(1, "\33(B\33[m\33[39;49m\33[37m\33[40m", 24) = 24
+rt_sigaction(SIGTSTP, {sa_handler=0x7f937ff94750, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f937fd5c520}, NULL, 8) = 0
+write(1, "\33[?1h\33=", 7)              = 7
+rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f937fd5c520}, {sa_handler=0x7f937ff94750, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f937fd5c520}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+write(1, "\r\33[A ", 5)                 = 5
+write(1, "\33(0\33[0m\33[37m\33[44mlq\33[16bk\33(B\33(B\33"..., 75) = 75
+write(1, "x\33(B\33[0m\33[37m\33[44m \33[3;18H", 26) = 26
+write(1, "  \33(0\33[0m\33[37m\33[44mx\33(B\33(B\33[m\33[3"..., 70) = 70
+write(1, "x\33(B\33[0m\33[37m\33[44m Run htop \33[7b"..., 100) = 100
+write(1, "x\33(B\33[0m\33[37m\33[44m Clear screen "..., 103) = 103
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+write(1, "x\33(B\33[0m\33[37m\33[44m Exit \33[11b\33(0"..., 97) = 97
+write(1, "x\33(B\33[0m\33[37m\33[44m\33[17X\33[7;20H", 30) = 30
+write(1, "\33(0\33[0m\33[37m\33[44mx\33(B\33(B\33[m\33[39;"..., 68) = 68
+write(1, "x\33(B\33[0m\33[37m\33[44m\33[17X\33[8;20H", 30) = 30
+write(1, "\33(0\33[0m\33[37m\33[44mx\33(B\33(B\33[m\33[39;"..., 68) = 68
+write(1, "mq\33[16bj\33(B\33(B\33[m\33[39;49m\33[37m\33["..., 58) = 58
+write(1, "\33(B\33(B\33[m\33[39;49m\33[37m\33[40m", 27) = 27
+rt_sigaction(SIGTSTP, {sa_handler=0x7f937ff94750, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f937fd5c520}, NULL, 8) = 0
+read(0, "\r", 1)                        = 1
+rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f937fd5c520}, {sa_handler=0x7f937ff94750, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f937fd5c520}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+write(1, "\33[3;4H", 6)                 = 6
+write(1, "\33[37m\33[44mPing 8.8.8.8  \10\10", 26) = 26
+write(1, "\33(B\33[m\33[39;49m\33[37m\33[40m", 24) = 24
+rt_sigaction(SIGTSTP, {sa_handler=0x7f937ff94750, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f937fd5c520}, NULL, 8) = 0
+write(1, "\33[39;49m\r\33[85d\33[K\33[85;1H\33[?12l\33["..., 36) = 36
+write(1, "\33[?1049l\33[23;0;0t\r\33[?1l\33>", 25) = 25
+ioctl(1, TCGETS, {B38400 opost isig -icanon -echo ...}) = 0
+ioctl(1, SNDCTL_TMR_STOP or TCSETSW, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+socket(AF_INET, SOCK_DGRAM, IPPROTO_ICMP) = 3
+getsockname(3, 0x7ffef38a5ac0, [0 => 16]) = 0
+sendto(3, "\10\0\367\376\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 64, 0, {sa_family=AF_INET, sin_port=htons(1025), sin_addr=inet_addr("8.8.8.8")}, 16) = 64
+write(1, "Sent 64 bytes\n", 14)         = 14
+recvmsg(3, {msg_namelen=128}, MSG_WAITALL) = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+--- SIGINT {si_signo=SIGINT, si_code=SI_KERNEL} ---
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f937fd5c520}, NULL, 8) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+write(1, "\33[39;49m\33[K\33[85;1H\33[?12l\33[?25h", 30) = 30
+write(1, "\33[?1049l\33[23;0;0t\r\33[?1l\33>", 25) = 25
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, SNDCTL_TMR_STOP or TCSETSW, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+exit_group(1)                           = ?
++++ exited with 1 +++

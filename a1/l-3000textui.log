@@ -1,0 +1,30 @@
+puts("Press any key to continue...")                                                                                                                                                                 = 29
+getchar(0x7f7b61eeda70, 1, 1, 0x7f7b61de5887)                                                                                                                                                        = 10
+initscr(0, 0x5559bd45e6b0, 0x5559bd45e6b1, 0x7f7b61de57e2)                                                                                                                                           = 0x5559bd49f840
+curs_set(0, 0x5559bd45e010, 0x5559bd45e, 0)                                                                                                                                                          = 1
+noecho(1, 0x5559bd462cc0, 45, 0x7f7b61de5887)                                                                                                                                                        = 0
+start_color(0x5559bd45eae0, 0x5559bd462cc0, 45, 0x7f7b61de5887)                                                                                                                                      = 0
+init_pair(1, 7, 4, 0)                                                                                                                                                                                = 0
+init_pair(2, 4, 7, 0)                                                                                                                                                                                = 0
+malloc(40)                                                                                                                                                                                           = 0x5559bd4bb4a0
+newwin(8, 19, 1, 1)                                                                                                                                                                                  = 0x5559bd4bb4e0
+wbkgd(0x5559bd4bb4e0, 256, 0x5559bd4bb4a0, 0x5559bd4bb860)                                                                                                                                           = 0
+wborder(0x5559bd4bb4e0, 0x400078, 0x400078, 0x400071)                                                                                                                                                = 0
+subwin(0x5559bd4bb4e0, 1, 14, 2)                                                                                                                                                                     = 0x5559bd4bb8e0
+subwin(0x5559bd4bb4e0, 1, 14, 3)                                                                                                                                                                     = 0x5559bd4bb970
+subwin(0x5559bd4bb4e0, 1, 14, 4)                                                                                                                                                                     = 0x5559bd4bba00
+subwin(0x5559bd4bb4e0, 1, 14, 5)                                                                                                                                                                     = 0x5559bd4bba90
+wprintw(0x5559bd4bb8e0, 0x5559967cd049, 0x5559967cd004, 0x5559967cd049)                                                                                                                              = 0
+wprintw(0x5559bd4bb970, 0x5559967cd049, 0x5559967cd011, 0x5559967cd049)                                                                                                                              = 0
+wprintw(0x5559bd4bba00, 0x5559967cd049, 0x5559967cd01a, 0x5559967cd049)                                                                                                                              = 0
+wprintw(0x5559bd4bba90, 0x5559967cd049, 0x5559967cd027, 0x5559967cd049)                                                                                                                              = 0
+wbkgd(0x5559bd4bb8e0, 512, 0, 3)                                                                                                                                                                     = 0
+wrefresh(0x5559bd4bb8e0, 16, 1, 1)                                                                                                                                                                   = 0
+keypad(0x5559bd4bb4e0, 1, 0, 0x7f7b61d135f3)                                                                                                                                                         = 0
+wgetch(0x5559bd4bb4e0, 2, 0x5559bd45fb10, 488)                                                                                                                                                       = 10
+wbkgd(0x5559bd4bb8e0, 256, 8, 1)                                                                                                                                                                     = 0
+wrefresh(0x5559bd4bb8e0, 16, 8, 1)                                                                                                                                                                   = 0
+endwin(20, 0x7ffc7463e920, 0, 0x7f7b61d135f3)                                                                                                                                                        = 0
+ping(0x5559967cd057, 0x5401, 0x7ffc7463ea70, 0x7f7b61deae0d <no return ...>
+--- SIGINT (Interrupt) ---
++++ exited (status 1) +++
